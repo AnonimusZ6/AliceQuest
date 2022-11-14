@@ -42,7 +42,7 @@ formTo.addEventListener('click', function () {
     let answer = prompt('введите ответ на загадку');
 
     if ((answer == 'Любопытство' || answer == 'любопытство') || (answer == 'Любопытство ' || answer == 'любопытство ')) {
-        window.location.href = '2.html';
+        window.location.href = '#';
     } else {
         alert('Неверно!');
     }
